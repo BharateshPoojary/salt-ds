@@ -45,6 +45,7 @@ export const CharacteristicsTokenTable = ({
   const [cssVariablesData, setCssVariablesData] =
     useState<CssVariableData | null>(null);
 
+<<<<<<< HEAD
   useEffect(() => {
     const fetchJsonData = async () => {
       const data = themeNext
@@ -57,9 +58,23 @@ export const CharacteristicsTokenTable = ({
         console.error(`Group "${group}" not found in the data.`);
       }
     };
+=======
+  // useEffect(() => {
+  //   const fetchJsonData = async () => {
+  //     const data = themeNext
+  //       ? await import("./cssCharacteristics-next.json")
+  //       : await import("./cssCharacteristics.json");
+  //     const groupedData = groupByType(data.default);
+  //     if (groupedData[group]) {
+  //       setCssVariablesData(groupedData[group]);
+  //     } else {
+  //       console.error(`Group "${group}" not found in the data.`);
+  //     }
+  //   };
+>>>>>>> cc31926e6 (Add ariaAnounce as prop so component using it can configure btween polite or assertive)
 
-    fetchJsonData();
-  }, [group, themeNext]);
+  //   fetchJsonData();
+  // }, [group, themeNext]);
 
   if (!cssVariablesData) {
     return (
