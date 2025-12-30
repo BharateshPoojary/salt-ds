@@ -3877,12 +3877,15 @@ __metadata:
     "@rollup/plugin-json": "npm:^6.1.0"
     "@rollup/plugin-node-resolve": "npm:^15.3.0"
 <<<<<<< HEAD
+<<<<<<< HEAD
     "@storybook/addon-a11y": "npm:^10.0.0"
     "@storybook/addon-docs": "npm:^10.0.0"
     "@storybook/addon-links": "npm:^10.0.0"
     "@storybook/icons": "npm:^2.0.1"
     "@storybook/react-vite": "npm:^10.0.0"
 =======
+=======
+>>>>>>> 513dbdac4557d588feea6fa8cd7bc2ce405d800d
     "@salt-ds/core": "workspace:^"
     "@storybook/addon-a11y": "npm:^9.0.4"
     "@storybook/addon-docs": "npm:^9.0.4"

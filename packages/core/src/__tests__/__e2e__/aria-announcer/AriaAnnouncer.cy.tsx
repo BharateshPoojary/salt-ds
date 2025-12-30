@@ -1,9 +1,13 @@
 import {
   ARIA_ANNOUNCE_DELAY,
-  AriaAnnouncerProvider,
   useAriaAnnouncer,
 } from "@salt-ds/core";
+<<<<<<< HEAD
 import { mount } from "cypress/react";
+=======
+import { mount } from "cypress/react18";
+import { AriaAnnouncerProvider } from "packages/core/src/aria-announcer";
+>>>>>>> 513dbdac4557d588feea6fa8cd7bc2ce405d800d
 
 const BUTTON_TEXT = "CLICK ME";
 const BUTTON_TEXT_WAIT = "CLICK ME AND WAIT";
@@ -48,7 +52,7 @@ describe("Given a AriaAnnouncerProvider", () => {
   it("should not affect the document flow", () => {
     mount(
       <div style={{ height: "100%", width: "100%" }}>
-        <AriaAnnouncerProvider>
+        <AriaAnnouncerProvider  >
           <div style={{ height: "100%", width: "100%" }} />
         </AriaAnnouncerProvider>
       </div>,
@@ -84,7 +88,7 @@ describe("Given a AriaAnnouncerProvider", () => {
 describe("Given useAriaAnnouncer", () => {
   it("should trigger an announcement", () => {
     mount(
-      <AriaAnnouncerProvider>
+      <AriaAnnouncerProvider >
         <TestComponent announcement="test" />
       </AriaAnnouncerProvider>,
     );

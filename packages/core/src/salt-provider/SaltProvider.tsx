@@ -241,7 +241,7 @@ function InternalSaltProvider({
   );
 
   if (isRootProvider) {
-    return <AriaAnnouncerProvider>{saltProvider}</AriaAnnouncerProvider>;
+    return <AriaAnnouncerProvider >{saltProvider}</AriaAnnouncerProvider>;
   }
   return saltProvider;
 }
