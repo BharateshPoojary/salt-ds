@@ -3679,7 +3679,32 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+<<<<<<< Updated upstream
 "@salt-ds/core@npm:^1.52.0, @salt-ds/core@workspace:^, @salt-ds/core@workspace:packages/core":
+=======
+"@salt-ds/core@npm:0.0.0-snapshot-20250929093937":
+  version: 0.0.0-snapshot-20250929093937
+  resolution: "@salt-ds/core@npm:0.0.0-snapshot-20250929093937"
+  dependencies:
+    "@floating-ui/react": "npm:^0.26.28"
+    "@salt-ds/icons": "npm:^1.14.0"
+    "@salt-ds/styles": "npm:0.2.1"
+    "@salt-ds/window": "npm:0.1.1"
+    clsx: "npm:^2.0.0"
+    use-sync-external-store: "npm:^1.5.0"
+  peerDependencies:
+    "@types/react": ">=16.14.0"
+    react: ">=16.14.0"
+    react-dom: ">=16.14.0"
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+  checksum: 10/9e04902c447b2f51ef34274052d9663d4d965d778b215cc32727be0d1617182fd86ebcd2004b7212ddad1d820c639d92fcab09f64cb87ace7bfc6d0fd6766585
+  languageName: node
+  linkType: hard
+
+"@salt-ds/core@npm:^1.45.0, @salt-ds/core@workspace:^, @salt-ds/core@workspace:packages/core":
+>>>>>>> Stashed changes
   version: 0.0.0-use.local
   resolution: "@salt-ds/core@workspace:packages/core"
   dependencies:
@@ -3788,7 +3813,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+<<<<<<< Updated upstream
 "@salt-ds/icons@npm:^1.15.0, @salt-ds/icons@workspace:^, @salt-ds/icons@workspace:packages/icons":
+=======
+"@salt-ds/icons@npm:^1.13.2, @salt-ds/icons@npm:^1.14.0, @salt-ds/icons@workspace:^, @salt-ds/icons@workspace:packages/icons":
+>>>>>>> Stashed changes
   version: 0.0.0-use.local
   resolution: "@salt-ds/icons@workspace:packages/icons"
   dependencies:
@@ -3876,6 +3905,7 @@ __metadata:
     "@rollup/plugin-commonjs": "npm:^28.0.1"
     "@rollup/plugin-json": "npm:^6.1.0"
     "@rollup/plugin-node-resolve": "npm:^15.3.0"
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
     "@storybook/addon-a11y": "npm:^10.0.0"
@@ -3887,6 +3917,9 @@ __metadata:
 =======
 >>>>>>> 513dbdac4557d588feea6fa8cd7bc2ce405d800d
     "@salt-ds/core": "workspace:^"
+=======
+    "@salt-ds/core": "npm:0.0.0-snapshot-20250929093937"
+>>>>>>> Stashed changes
     "@storybook/addon-a11y": "npm:^9.0.4"
     "@storybook/addon-docs": "npm:^9.0.4"
     "@storybook/addon-links": "npm:^9.0.4"
@@ -3910,7 +3943,12 @@ __metadata:
     chromatic: "npm:^13.0.0"
     ci-info: "npm:^4.0.0"
     clsx: "npm:^2.0.0"
+<<<<<<< Updated upstream
     cypress: "npm:^15.7.1"
+=======
+    css-inline-plugin: "workspace:^"
+    cypress: "npm:^13.17.0"
+>>>>>>> Stashed changes
     cypress-axe: "npm:^1.5.0"
     cypress-real-events: "npm:^1.13.0"
     deepmerge: "npm:^4.2.2"
@@ -3979,7 +4017,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@salt-ds/styles@workspace:*, @salt-ds/styles@workspace:packages/styles":
+"@salt-ds/styles@npm:0.2.1, @salt-ds/styles@workspace:*, @salt-ds/styles@workspace:packages/styles":
   version: 0.0.0-use.local
   resolution: "@salt-ds/styles@workspace:packages/styles"
   peerDependencies:
@@ -4000,7 +4038,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@salt-ds/window@workspace:*, @salt-ds/window@workspace:packages/window":
+"@salt-ds/window@npm:0.1.1, @salt-ds/window@workspace:*, @salt-ds/window@workspace:packages/window":
   version: 0.0.0-use.local
   resolution: "@salt-ds/window@workspace:packages/window"
   peerDependencies:
@@ -7743,7 +7781,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"css-inline-plugin@workspace:tooling/css-inline-plugin":
+"css-inline-plugin@workspace:^, css-inline-plugin@workspace:tooling/css-inline-plugin":
   version: 0.0.0-use.local
   resolution: "css-inline-plugin@workspace:tooling/css-inline-plugin"
   peerDependencies:

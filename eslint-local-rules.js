@@ -7,8 +7,9 @@ module.exports = {
     },
     create: (context) => ({
       ImportDeclaration: (node) => {
-        const importPath = node.source.value;
-        const importSpecifiers = node.specifiers;
+        //import styles from "./style.css"
+        const importPath = node.source.value;//Import path is the node value "./style.css"
+        const importSpecifiers = node.specifiers;//get the variable used for naming import [styles]
 
         if (importPath.endsWith(".css") && importSpecifiers.length === 0) {
           context.report({
